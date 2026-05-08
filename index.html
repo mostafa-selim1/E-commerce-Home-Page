@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brand</title>
+  <link rel="icon" href="imgs/Gemini_Generated_Image_47t6y847t6y847t6.png">
+
+  <!-- Font Awesome 6  (v7 does not exist – would silently break all icons) -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Project CSS -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body id="MoSelim">
+
+  <!-- ====================================================
+       NAVBAR  (fixed-top)
+  ==================================================== -->
+  <header class="fixed-top bg-white border-bottom" role="banner">
+
+    <!-- Promo bar -->
+    <div class="bg-black text-white text-center rounded-2 m-1 py-1 px-2">
+      <small>Enjoy an exclusive 15% coupon for your first purchase</small>
+    </div>
+
+    <!-- Main nav row -->
+    <nav class="d-flex justify-content-between align-items-center px-4 py-2"
+         aria-label="Main navigation">
+
+      <!-- Logo -->
+      <a href="#" class="text-decoration-none text-black" aria-label="Brand – go to homepage">
+        <h1 class="h4 fw-bolder m-0">Brand</h1>
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="d-none d-md-flex list-unstyled m-0 p-0 align-items-center gap-1">
+        <li><a href="#" class="text-black text-decoration-none fw-medium px-2 py-1 nav-item">Latest Products</a></li>
+        <li><a href="#" class="text-black text-decoration-none fw-medium px-2 py-1 nav-item">Backpack</a></li>
+        <li><a href="#" class="text-black text-decoration-none fw-medium px-2 py-1 nav-item">Bags</a></li>
+        <li><a href="#" class="text-black text-decoration-none fw-medium px-2 py-1 nav-item">Accessories</a></li>
+        <li><a href="#" class="text-black text-decoration-none fw-medium px-2 py-1 nav-item">Collection</a></li>
+        <li><a href="#" class="text-black text-decoration-none fw-medium px-2 py-1 nav-item">Gifting</a></li>
+        <li><a href="#" class="text-black text-decoration-none fw-medium px-2 py-1 nav-item">Service</a></li>
+      </ul>
+
+      <!-- Action icons + hamburger -->
+      <div class="d-flex align-items-center gap-3">
+        <div class="d-flex gap-3 fs-5">
+          <i class="fa-solid fa-magnifying-glass nav-icon" role="button" tabindex="0" aria-label="Search"></i>
+          <i class="fa-solid fa-cart-shopping nav-icon"    role="button" tabindex="0" aria-label="Cart"></i>
+          <i class="fa-regular fa-circle-user nav-icon"    role="button" tabindex="0" aria-label="Account"></i>
+        </div>
+        <!-- Hamburger (mobile only) -->
+        <button class="hamburger-btn d-md-none" id="menuToggle"
+                aria-expanded="false" aria-controls="mobileMenu" aria-label="Open navigation menu">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile slide-down menu -->
+    <div class="mobile-nav" id="mobileMenu" role="navigation" aria-label="Mobile navigation">
+      <a href="#">Latest Products</a>
+      <a href="#">Backpack</a>
+      <a href="#">Bags</a>
+      <a href="#">Accessories</a>
+      <a href="#">Collection</a>
+      <a href="#">Gifting</a>
+      <a href="#">Service</a>
+    </div>
+
+  </header>
+  <!-- /NAVBAR -->
+
+
+  <!-- ====================================================
+       MAIN CONTENT
+  ==================================================== -->
+  <main>
+
+    <!-- ── HERO ─────────────────────────────────────── -->
+    <section class="container-fluid px-4 pt-4 pb-2" aria-label="Hero">
+      <div class="row align-items-stretch g-4">
+
+        <!-- Left column -->
+        <div class="col-12 col-md-6 d-flex flex-column gap-3">
+
+          <div class="hero-card flex-grow-1">
+            <h2 class="fw-bold fs-2">GET READY FOR YEAR-END BUSINESS TRAVEL</h2>
+            <p class="text-muted mt-2">
+              Prepare for year-end business travel with ease. Maximize productivity,
+              streamline plans, and enjoy stress-free journeys.
+            </p>
+            <a href="#" class="btn btn-dark mt-2 px-4">Shop Now</a>
+          </div>
+
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="feature-card">
+                <h3 class="h5 fw-bold">FREE SHIPPING</h3>
+                <p class="small text-muted mb-0">
+                  Instant help from knowledgeable representatives available.
+                </p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="feature-card">
+                <h3 class="h5 fw-bold">SECURE CHECKOUT</h3>
+                <p class="small text-muted mb-0">
+                  Enjoy a safe and smooth purchasing experience every time.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right column – hero image -->
+        <div class="col-12 col-md-6">
+          <div class="hero-img-wrap">
+            <img
+              src="imgs/ff2d7d6d-0660-407f-8373-8ec604dc5bf0.__CR0,0,1594,986_PT0_SX970_V1___.png"
+              alt="Classic Casual Laptop Backpack for business travel"
+              loading="eager">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- /HERO -->
+
+
+    <!-- ── BEST PRODUCT INTRO ──────────────────────── -->
+    <section class="py-4 text-center" aria-label="Best product intro">
+      <p class="section-eyebrow mt-3 mb-1">BEST PRODUCT</p>
+      <h2 class="fw-bolder fs-3">GO-TO TRAVEL PACK</h2>
+      <p class="text-muted small mt-2">
+        Designed for adventures, this pack offers ample space, durability,
+        and comfort for all your journeys ahead.
+      </p>
+    </section>
+
+
+    <!-- ── FEATURES GRID ────────────────────────────── -->
+    <section class="mb-5" aria-label="Product features">
+      <div class="features-grid">
+
+        <div class="features-col">
+          <div class="feature-box">
+            <h3>SPACIOUS DESIGN</h3>
+            <p>Holds essentials with ample organized space.</p>
+          </div>
+          <div class="feature-box">
+            <h3>WEATHER RESISTANT</h3>
+            <p>Durable material keeps belongings safe in any weather.</p>
+          </div>
+        </div>
+
+        <img src="imgs/5c473f93-08f9-430d-93db-67c556df7cba.jpg"
+             class="features-center-img"
+             alt="Travel backpack – product feature view"
+             loading="lazy">
+
+        <div class="features-col">
+          <div class="feature-box">
+            <h3>COMFORT FIT</h3>
+            <p>Padded straps offer all-day comfort and support.</p>
+          </div>
+          <div class="feature-box">
+            <h3>TECH-FRIENDLY</h3>
+            <p>Dedicated compartments protect laptops and electronic devices.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- /FEATURES GRID -->
+
+
+    <hr class="mx-4">
+
+
+    <!-- ── BACKPACK COLLECTION HEADER ────────────────── -->
+    <section class="container-fluid px-4 mt-5 mb-3" aria-label="Backpack collection">
+      <p class="section-eyebrow mb-1">BACKPACK COLLECTION</p>
+      <h2 class="fw-bolder fs-3 mb-0">BROWSE BACKPACK COLLECTION</h2>
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3 mt-2">
+        <p class="mb-0 text-muted">
+          Shop our backpack collection, featuring trendy design, versatile style, and exceptional quality for every adventure.
+        </p>
+        <a href="#" class="btn btn-outline-dark rounded-3 flex-shrink-0 Show-More">Show More</a>
+      </div>
+    </section>
+
+
+    <!-- ── COLLECTION BANNER ─────────────────────────── -->
+    <section class="bg-light py-5" aria-label="Year-end collection banner">
+      <div class="collection-img-wrap">
+        <img src="imgs/51jblhjsYuL._AC_SX679_480x480-removebg-preview.png"
+             alt="Year-end collection featured backpack"
+             loading="lazy">
+      </div>
+
+      <div class="collection-cta">
+        <h3 class="fs-4 text-white fw-bolder text-uppercase mb-2">GET READY FOR YEAR</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Nesciunt inventore ab ullam vero quidem
+          asperiores modi non provident repellat beatae eum, in?
+        </p>
+        <a href="#" class="btn btn-light px-5 rounded-3 fw-bold text-black border-0">Explore</a>
+      </div>
+    </section>
+    <!-- /COLLECTION BANNER -->
+
+
+    <!-- ── BACKPACK SCROLL CAROUSEL ──────────────────── -->
+    <section class="mt-5 mb-4" aria-label="Backpack products">
+
+      <!-- Re-use the section header pattern -->
+      <div class="container-fluid px-4 mb-3">
+        <p class="section-eyebrow mb-1">FEATURED BACKPACKS</p>
+      </div>
+
+      <div class="backpack-scroll" role="list">
+
+        <!-- Card 1 -->
+        <article class="bp-card" role="listitem">
+          <div class="img-box">
+            <img src="imgs/51JBVEtDTKL._AC_SY879_-removebg-preview.png" alt="Search Backpack" loading="lazy">
+          </div>
+          <h3 class="fw-bolder mt-1 mb-1" style="font-size:.95rem;">SEARCH BACKPACK</h3>
+          <p class="fw-bold fs-5 mb-3">$200</p>
+          <button class="btn btn-dark w-100 rounded-3 py-2">
+            <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+          </button>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="bp-card" role="listitem">
+          <div class="img-box">
+            <img src="imgs/51VL3-MLIyL._AC_SX679_-removebg-preview.png" alt="Backpack model 2" loading="lazy">
+          </div>
+          <h3 class="fw-bolder mt-1 mb-1" style="font-size:.95rem;">SEARCH BACKPACK</h3>
+          <p class="fw-bold fs-5 mb-3">$200</p>
+          <button class="btn btn-dark w-100 rounded-3 py-2">
+            <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+          </button>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="bp-card" role="listitem">
+          <div class="img-box">
+            <img src="imgs/51JBVEtDTKL._AC_SY879_-removebg-preview.png" alt="Backpack model 3" loading="lazy">
+          </div>
+          <h3 class="fw-bolder mt-1 mb-1" style="font-size:.95rem;">SEARCH BACKPACK</h3>
+          <p class="fw-bold fs-5 mb-3">$200</p>
+          <button class="btn btn-dark w-100 rounded-3 py-2">
+            <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+          </button>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="bp-card" role="listitem">
+          <div class="img-box">
+            <img src="imgs/817M1r45rpL._AC_SX679_-removebg-preview.png" alt="Backpack model 4" loading="lazy">
+          </div>
+          <h3 class="fw-bolder mt-1 mb-1" style="font-size:.95rem;">SEARCH BACKPACK</h3>
+          <p class="fw-bold fs-5 mb-3">$200</p>
+          <button class="btn btn-dark w-100 rounded-3 py-2">
+            <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+          </button>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="bp-card" role="listitem">
+          <div class="img-box">
+            <img src="imgs/81orKUU6BBL._AC_SX679_-removebg-preview.png" alt="Backpack model 5" loading="lazy">
+          </div>
+          <h3 class="fw-bolder mt-1 mb-1" style="font-size:.95rem;">SEARCH BACKPACK</h3>
+          <p class="fw-bold fs-5 mb-3">$200</p>
+          <button class="btn btn-dark w-100 rounded-3 py-2">
+            <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+          </button>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="bp-card" role="listitem">
+          <div class="img-box">
+            <img src="imgs/817M1r45rpL._AC_SX679_-removebg-preview.png" alt="Backpack model 6" loading="lazy">
+          </div>
+          <h3 class="fw-bolder mt-1 mb-1" style="font-size:.95rem;">SEARCH BACKPACK</h3>
+          <p class="fw-bold fs-5 mb-3">$200</p>
+          <button class="btn btn-dark w-100 rounded-3 py-2">
+            <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+          </button>
+        </article>
+
+        <!-- Card 7 -->
+        <article class="bp-card" role="listitem">
+          <div class="img-box">
+            <img src="imgs/817M1r45rpL._AC_SX679_-removebg-preview.png" alt="Backpack model 7" loading="lazy">
+          </div>
+          <h3 class="fw-bolder mt-1 mb-1" style="font-size:.95rem;">SEARCH BACKPACK</h3>
+          <p class="fw-bold fs-5 mb-3">$200</p>
+          <button class="btn btn-dark w-100 rounded-3 py-2">
+            <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+          </button>
+        </article>
+
+        <!-- Card 8 -->
+        <article class="bp-card" role="listitem">
+          <div class="img-box">
+            <img src="imgs/817M1r45rpL._AC_SX679_-removebg-preview.png" alt="Backpack model 8" loading="lazy">
+          </div>
+          <h3 class="fw-bolder mt-1 mb-1" style="font-size:.95rem;">SEARCH BACKPACK</h3>
+          <p class="fw-bold fs-5 mb-3">$200</p>
+          <button class="btn btn-dark w-100 rounded-3 py-2">
+            <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+          </button>
+        </article>
+
+        <!-- Card 9 -->
+        <article class="bp-card" role="listitem">
+          <div class="img-box">
+            <img src="imgs/817M1r45rpL._AC_SX679_-removebg-preview.png" alt="Backpack model 9" loading="lazy">
+          </div>
+          <h3 class="fw-bolder mt-1 mb-1" style="font-size:.95rem;">SEARCH BACKPACK</h3>
+          <p class="fw-bold fs-5 mb-3">$200</p>
+          <button class="btn btn-dark w-100 rounded-3 py-2">
+            <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+          </button>
+        </article>
+
+      </div>
+    </section>
+    <!-- /BACKPACK SCROLL -->
+
+
+    <hr class="mx-4">
+
+
+    <!-- ── ACCESSORIES HEADER ─────────────────────────── -->
+    <section class="container-fluid px-4 mt-5 mb-3" aria-label="Accessories">
+      <p class="section-eyebrow mb-1">ACCESSORIES</p>
+      <h2 class="fw-bolder fs-3 mb-0">BACKPACK GEAR ESSENTIALS</h2>
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3 mt-2">
+        <p class="mb-0 text-muted">
+          Shop our backpack collection, featuring trendy design, versatile style, and exceptional quality for every adventure.
+        </p>
+        <a href="#" class="btn btn-outline-dark rounded-3 flex-shrink-0 Show-More">Show More</a>
+      </div>
+    </section>
+
+
+    <!-- ── ACCESSORIES GRID ───────────────────────────── -->
+    <section class="container-fluid px-4 mt-4 mb-5" aria-label="Accessories product grid">
+      <div class="row g-4">
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card product-card text-center p-3 shadow-sm">
+            <div class="img-container">
+              <img src="imgs/41i0jX1avqL._AC_SX679_-removebg-preview.png" alt="Urban Explorer Backpack" loading="lazy">
+            </div>
+            <div class="card-body px-0 pb-0">
+              <p class="text-uppercase text-muted mb-1" style="font-size:11px;letter-spacing:1px;">Accessories</p>
+              <h3 class="h6 fw-bold mb-2">URBAN EXPLORER BACKPACK</h3>
+              <p class="fw-bolder fs-5 text-dark mb-3">$60</p>
+              <button class="btn btn-dark w-100 rounded-3 py-2">
+                <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card product-card text-center p-3 shadow-sm">
+            <div class="img-container">
+              <img src="imgs/41xoaL4+TnL._AC_-removebg-preview.png" alt="Pro Business Bag" loading="lazy">
+            </div>
+            <div class="card-body px-0 pb-0">
+              <p class="text-uppercase text-muted mb-1" style="font-size:11px;letter-spacing:1px;">Travel</p>
+              <h3 class="h6 fw-bold mb-2">PRO BUSINESS BAG</h3>
+              <p class="fw-bolder fs-5 text-dark mb-3">$60</p>
+              <button class="btn btn-dark w-100 rounded-3 py-2">
+                <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card product-card text-center p-3 shadow-sm">
+            <div class="img-container">
+              <img src="imgs/51LtWiNdSEL._AC_-removebg-preview.png" alt="Pro Business Bag 2" loading="lazy">
+            </div>
+            <div class="card-body px-0 pb-0">
+              <p class="text-uppercase text-muted mb-1" style="font-size:11px;letter-spacing:1px;">Travel</p>
+              <h3 class="h6 fw-bold mb-2">PRO BUSINESS BAG</h3>
+              <p class="fw-bolder fs-5 text-dark mb-3">$60</p>
+              <button class="btn btn-dark w-100 rounded-3 py-2">
+                <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card product-card text-center p-3 shadow-sm">
+            <div class="img-container">
+              <img src="imgs/41xoaL4+TnL._AC_-removebg-preview.png" alt="Pro Business Bag 3" loading="lazy">
+            </div>
+            <div class="card-body px-0 pb-0">
+              <p class="text-uppercase text-muted mb-1" style="font-size:11px;letter-spacing:1px;">Travel</p>
+              <h3 class="h6 fw-bold mb-2">PRO BUSINESS BAG</h3>
+              <p class="fw-bolder fs-5 text-dark mb-3">$90</p>
+              <button class="btn btn-dark w-100 rounded-3 py-2">
+                <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card product-card text-center p-3 shadow-sm">
+            <div class="img-container">
+              <img src="imgs/51LtWiNdSEL._AC_-removebg-preview.png" alt="Pro Business Bag 4" loading="lazy">
+            </div>
+            <div class="card-body px-0 pb-0">
+              <p class="text-uppercase text-muted mb-1" style="font-size:11px;letter-spacing:1px;">Travel</p>
+              <h3 class="h6 fw-bold mb-2">PRO BUSINESS BAG</h3>
+              <p class="fw-bolder fs-5 text-dark mb-3">$90</p>
+              <button class="btn btn-dark w-100 rounded-3 py-2">
+                <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card product-card text-center p-3 shadow-sm">
+            <div class="img-container">
+              <img src="imgs/41i0jX1avqL._AC_SX679_-removebg-preview.png" alt="Pro Business Bag 5" loading="lazy">
+            </div>
+            <div class="card-body px-0 pb-0">
+              <p class="text-uppercase text-muted mb-1" style="font-size:11px;letter-spacing:1px;">Travel</p>
+              <h3 class="h6 fw-bold mb-2">PRO BUSINESS BAG</h3>
+              <p class="fw-bolder fs-5 text-dark mb-3">$90</p>
+              <button class="btn btn-dark w-100 rounded-3 py-2">
+                <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card product-card text-center p-3 shadow-sm">
+            <div class="img-container">
+              <img src="imgs/41i0jX1avqL._AC_SX679_-removebg-preview.png" alt="Pro Business Bag 6" loading="lazy">
+            </div>
+            <div class="card-body px-0 pb-0">
+              <p class="text-uppercase text-muted mb-1" style="font-size:11px;letter-spacing:1px;">Travel</p>
+              <h3 class="h6 fw-bold mb-2">PRO BUSINESS BAG</h3>
+              <p class="fw-bolder fs-5 text-dark mb-3">$90</p>
+              <button class="btn btn-dark w-100 rounded-3 py-2">
+                <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card product-card text-center p-3 shadow-sm">
+            <div class="img-container">
+              <img src="imgs/41xoaL4+TnL._AC_-removebg-preview.png" alt="Pro Business Bag 7" loading="lazy">
+            </div>
+            <div class="card-body px-0 pb-0">
+              <p class="text-uppercase text-muted mb-1" style="font-size:11px;letter-spacing:1px;">Travel</p>
+              <h3 class="h6 fw-bold mb-2">PRO BUSINESS BAG</h3>
+              <p class="fw-bolder fs-5 text-dark mb-3">$60</p>
+              <button class="btn btn-dark w-100 rounded-3 py-2">
+                <i class="fa-solid fa-cart-plus me-2" aria-hidden="true"></i>Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- /ACCESSORIES GRID -->
+
+  </main>
+  <!-- /MAIN -->
+
+
+  <!-- ====================================================
+       FOOTER
+  ==================================================== -->
+  <footer class="bg-black py-5">
+    <div class="container">
+
+      <!-- Top row: brand + socials -->
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="text-white m-0 fw-bolder">Brand</h2>
+        <div class="d-flex gap-2">
+          <a href="https://wa.me/201012455315" target="_blank" rel="noopener noreferrer"
+             class="social-link" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100007073730955" target="_blank" rel="noopener noreferrer"
+             class="social-link" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/mostafa-selim-96556a387/" target="_blank" rel="noopener noreferrer"
+             class="social-link" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <p class="text-white footer-description w-50 mb-4">
+        This page is a sample layout created for demonstration purposes. It showcases design structure,
+        content arrangement, and user interface elements.
+      </p>
+
+      <hr class="border-secondary">
+
+      <!-- Bottom rows -->
+      <div class="row mt-4 mb-5 g-4">
+
+        <!-- Contact column -->
+        <div class="col-md-6">
+          <img src="imgs/Gemini_Generated_Image_1tv3p51tv3p51tv3.png"
+               class="img-fluid rounded-4 mb-3"
+               style="max-height:180px; object-fit:cover;"
+               alt="Brand store"
+               loading="lazy">
+
+          <address style="font-style:normal;">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <i class="fa-solid fa-phone text-white" aria-hidden="true"></i>
+              <a href="tel:+201012455315" class="text-white text-decoration-none">01012455315</a>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <i class="fa-solid fa-location-dot text-white" aria-hidden="true"></i>
+              <span class="text-white">Location</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fa-solid fa-envelope text-white" aria-hidden="true"></i>
+              <a href="mailto:mostafa.selim.dev@gmail.com"
+                 class="text-white text-decoration-none">mostafa.selim.dev@gmail.com</a>
+            </div>
+          </address>
+        </div>
+
+        <!-- Quick menu -->
+        <div class="col-6 col-md-3">
+          <ul class="list-unstyled footer-links">
+            <li class="mb-2"><span class="text-white fw-bold">QUICK MENU</span></li>
+            <li><a href="#">Latest Products</a></li>
+            <li><a href="#">Backpack</a></li>
+            <li><a href="#">Bags</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Service</a></li>
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div class="col-6 col-md-3">
+          <ul class="list-unstyled footer-links">
+            <li class="mb-2"><span class="text-white fw-bold">SUPPORT</span></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Product Instructions</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Shipping Options</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <hr class="border-secondary">
+
+      <p class="text-center text-white-50 mt-4 mb-0 footer-copy">
+        © 2026 Designed and developed by Mostafa Selim as a demonstration project to showcase web development skills.
+      </p>
+
+    </div>
+  </footer>
+  <!-- /FOOTER -->
+
+
+  <!-- Scroll-to-top -->
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+
+  <!-- Bootstrap JS (deferred – doesn't block render) -->
+  <script src="imgs/https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
+  <script>
+    /* ── Mobile menu toggle ── */
+    const menuBtn  = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    menuBtn.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open);
+      menuBtn.querySelector('i').className = open ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+    });
+
+    // Close when a link is tapped
+    mobileMenu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        mobileMenu.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', false);
+        menuBtn.querySelector('i').className = 'fa-solid fa-bars';
+      });
+    });
+
+    /* ── Keyboard nav for icon buttons ── */
+    document.querySelectorAll('.nav-icon').forEach(icon => {
+      icon.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') icon.click();
+      });
+    });
+
+    /* ── Scroll-to-top ── */
+    const topBtn = document.getElementById('scrollTopBtn');
+
+    window.addEventListener('scroll', () => {
+      topBtn.classList.toggle('visible', window.scrollY > 400);
+    });
+
+    topBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+            document.addEventListener("click", function(e){
+    const link = e.target.closest("a");
+
+    if (!link) return;
+
+    const href = link.getAttribute("href");
+
+    if (href === "#" || href === "") {
+        e.preventDefault();
+    }
+});
+        // Initialize Animations
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+  </script>
+  <!-- Scripts -->
+
+</body>
+</html>
